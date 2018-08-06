@@ -1,5 +1,10 @@
-uint8 movement_type
-uint8 size
+uint8 move_command
+uint8 move_type
 uint8 ovr
-float32[] data
-uint8[] movement_attributes
+uint8 delay
+uint8 remote_tool
+float32 cartesian_linear_speed
+edo_core_msgs/Point target
+edo_core_msgs/Point via
+edo_core_msgs/Frame tool
+edo_core_msgs/Frame frame

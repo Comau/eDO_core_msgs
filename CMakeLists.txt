@@ -69,6 +69,8 @@ find_package(catkin REQUIRED COMPONENTS
    NodeSwVersionArray.msg
    JointFwVersion.msg
    JointFwVersionArray.msg
+   Point.msg
+   Frame.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -81,6 +83,7 @@ find_package(catkin REQUIRED COMPONENTS
    SoftwareVersion.srv
    ControlSwitch.srv
    SystemCommand.srv
+   LoadConfigurationFile.srv ## 180305 GC&IL
  )
 
 
