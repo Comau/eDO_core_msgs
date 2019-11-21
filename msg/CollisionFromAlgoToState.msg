@@ -1,1 +1,0 @@
-bool coll_flag

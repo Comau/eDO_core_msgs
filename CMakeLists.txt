@@ -72,7 +72,12 @@ find_package(catkin REQUIRED COMPONENTS
    Point.msg
    Frame.msg
    SystemCommand.msg
-   CollisionFromAlgoToState.msg
+   CollisionThreshold.msg
+   CollisionAlgoToState.msg
+   BrakesCheckAck.msg
+   Payload.msg
+   AppStateArray.msg
+   AppState.msg
  )
 
 ## Generate services in the 'srv' folder
