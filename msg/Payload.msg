@@ -1,0 +1,10 @@
+float32 mass
+float32 x
+float32 y
+float32 z
+float32 xx
+float32 yy
+float32 zz
+float32 xy
+float32 xz
+float32 yz

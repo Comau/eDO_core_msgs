@@ -8,3 +8,4 @@ edo_core_msgs/Point target
 edo_core_msgs/Point via
 edo_core_msgs/Frame tool
 edo_core_msgs/Frame frame
+edo_core_msgs/Payload payload

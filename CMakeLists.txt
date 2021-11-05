@@ -78,7 +78,9 @@ find_package(catkin REQUIRED COMPONENTS
    Payload.msg
    AppStateArray.msg
    AppState.msg
- )
+   JointValue.msg
+   Pen.msg
+)
 
 ## Generate services in the 'srv' folder
 
@@ -91,6 +93,8 @@ find_package(catkin REQUIRED COMPONENTS
    ControlSwitch.srv
    SystemCommandSrv.srv
    LoadConfigurationFile.srv ## 180305 GC&IL
+   ToolConfiguration.srv
+   CalibCounter.srv
  )
 
 

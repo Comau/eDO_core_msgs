@@ -1,2 +1,3 @@
 ---
 edo_core_msgs/NodeSwVersionArray version
+int8 tool_id
